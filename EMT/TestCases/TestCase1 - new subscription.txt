@@ -1,4 +1,4 @@
-*** Settings ***
+﻿*** Settings ***
 Suite Setup       Open Browser    ${homepage}    ff    winTC1
 Test Setup        Test Case Setup
 Test Teardown     Test Case Teardown
@@ -14,7 +14,7 @@ TestCase1
     [Documentation]    Test Case 1
     [Tags]    TestCase1    Ready
     Find Customer
-    Precheck
+    Precheck  #for checking saldo
     # Step 1.
     Verify Start Page
     # Step 2.
