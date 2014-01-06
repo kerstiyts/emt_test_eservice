@@ -4,7 +4,7 @@ Suite Setup       Open Browser    ${homepage}    chrome    winTC7
 Test Setup        Test Case Setup
 Test Teardown     Test Case Teardown
 Default Tags
-Test Timeout      15 minutes
+Test Timeout      17 minutes
 Resource          ../Resources/common_resources.txt
 Resource          ../Resources/testcase7_resources.txt
 
